@@ -1,0 +1,14 @@
+# Inspiration: https://github.com/codebytes/github-actions-demos/blob/main/.github/workflows/marp-pages.yml
+
+name: Build & Publish Slides
+
+on: push
+
+jobs:
+  build:
+    name: Build slides
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v6
