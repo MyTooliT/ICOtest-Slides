@@ -12,3 +12,19 @@ jobs:
     steps:
 
     - uses: actions/checkout@v6
+
+    - name: Install just
+      uses: taiki-e/install-action@just
+
+    - name: Copy resources
+      run: just init-build
+
+    - name: Create HTML version of slides
+      uses: docker://marpteam/marp-cli:latest
+      env:
+        MARP_USER: root:root
+      with:
+        args: >
+          --html
+          -o build/index.html
+          ICOtest.md
