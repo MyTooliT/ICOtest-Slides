@@ -14,3 +14,15 @@ We assume that you installed the following tools in the text below:
 ```sh
 just
 ```
+
+# Documentation
+
+For more information on how to extend or update the slides, please take a look at the links below.
+
+## General
+
+- [Marpit Markdown Guide](https://marpit.marp.app/markdown)
+
+## Examples
+
+- [ICOc (Library) Slides](https://github.com/MyTooliT/ICOc-Library-Introduction)
