@@ -34,3 +34,22 @@ section::after {
 
 ![bg fit right:38%](Pictures/Read-the-Docs.webp)
 
+---
+
+# 📋 Requirements
+
+## Hardware
+
+- CAN adapter
+- ICOtronic hardware
+- USB Programmer (optional for flashing)
+
+![bg fit right:50% 50%](Pictures/CAN-Adapter.jpg)
+![bg vertical 35%](Pictures/STU.webp)
+![bg vertical 50%](Pictures/Programmer.webp)
+
+## Software
+
+- Python
+- Driver for CAN Hardware
+- ICOtest
