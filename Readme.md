@@ -1,6 +1,6 @@
 # Description
 
-This repository contains slides about the current state of the [ICOtest package](https://github.com/MyTooliT/ICOtest).
+This repository contains a presentation about the current state of the [ICOtest package](https://github.com/MyTooliT/ICOtest). You can find the latest HTML version of the slides [here](https://mytoolit.github.io/ICOtest-Slides).
 
 # Requirements
 
