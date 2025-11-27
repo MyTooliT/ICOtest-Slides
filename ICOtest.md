@@ -42,7 +42,7 @@ section::after {
 
 - CAN adapter
 - ICOtronic hardware
-- USB Programmer <br/> (optional for flashing)
+- USB Programmer <br/> (for firmware upload)
 
 ![bg fit right:55% 150%](Pictures/CAN-Adapter.jpg)
 ![bg 100%](Pictures/STU.webp)
