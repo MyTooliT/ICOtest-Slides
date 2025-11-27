@@ -78,3 +78,19 @@ section::after {
   ```
 
 ![bg fit right:28% 200%](Pictures/icotest.webp)
+
+---
+
+# 🚧 Current State
+
+- Tests still need refinement
+- Works on my machine 😅
+- We probably need to add some **additional tests**
+- **Default parameters** should be **updated** <br/> (by hardware expert)
+- **Proper description** of test **procedure**
+  - Which test commands do we need for which hardware
+  - How do we document test results?
+    - Output of test commands
+    - Version of ICOtest
+
+![bg right:30% opacity:.15](Pictures/ICOtronic-System.webp)
