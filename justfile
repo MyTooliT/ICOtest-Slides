@@ -10,7 +10,7 @@ build_directory := "build"
 [default]
 [group('preview')]
 preview:
-	marp --preview {{slides}}
+	marp --preview {{slides}} &
 
 # Copy resources to build directory
 [group('build')]
