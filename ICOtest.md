@@ -53,3 +53,28 @@ section::after {
 - Python
 - Driver for CAN Hardware
 - ICOtest
+
+---
+
+# ⚙️ Usage
+
+- ICOtest CLI tool to run tests:
+
+  ```sh
+  icotest run -k 'sensor_node or sth'
+  ```
+
+  Run test that contain pattern `sensor_node` or <br/> pattern `sth`
+
+- Config of test parameters via YAML (`icotest config`):
+
+  ```yaml
+  # Product name for the  manufacturer (maximum of 128 byte UTF-8 encoded text)
+  product name: "0"
+  # The production date of the STH PCB in the format YYYY-MM-DD
+  production date: 2025-01-01
+  # Serial number for the manufacturer (maximum of 32 byte UTF-8 encoded text)
+  serial number: "0"
+  ```
+
+![bg fit right:28% 200%](Pictures/icotest.webp)
