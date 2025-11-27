@@ -64,7 +64,9 @@ section::after {
   icotest run -k 'sensor_node or sth'
   ```
 
-  Run test that contain pattern `sensor_node` or <br/> pattern `sth`
+  Run test that contain pattern
+  - `sensor_node` or
+  - `sth`
 
 - Config of test parameters via YAML (`icotest config`):
 
