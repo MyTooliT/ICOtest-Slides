@@ -51,7 +51,7 @@ section::after {
 ## Software
 
 - Python
-- Driver for CAN Hardware
+- Driver for CAN adapter
 - ICOtest
 
 ---
