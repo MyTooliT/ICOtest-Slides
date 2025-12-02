@@ -17,6 +17,7 @@ section::after {
 <!--
 
 - Kurze Einführung zum Thema Testen des ICOtronic Systems
+- Testen damit wir sehen, dass Hardware wie erwartet funktioniert
 - Testen in Verbindung mit Firmware (kein reiner Test der Hardware)
 
 -->
@@ -44,8 +45,11 @@ section::after {
 <!--
 
 - ICOtest: Python-Paket zum Testen mittels pytest
-- Für die auf der Folie zu sehende ICOtronic hardware
-- Dokumentation auf Read the Docs
+- Für die auf der Folie zu sehende ICOtronic Hardware
+  - STU:
+    - „Basisstation“ mittels CAN mit Computer verbunden
+    - Sensor Nodes: Sensorische Hardware mittels Bluetooth mit STU verbunden
+- Dokumentation auf „Read the Docs“-Website
 
 -->
 
