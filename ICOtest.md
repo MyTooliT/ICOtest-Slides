@@ -14,6 +14,13 @@ section::after {
 
 ![bg opacity:.15](Pictures/ICOtronic-System.webp)
 
+<!--
+
+- Kurze Einführung zum Thema Testen des ICOtronic Systems
+- Testen in Verbindung mit Firmware (kein reiner Test der Hardware)
+
+-->
+
 ---
 
 # 📚 ICOtest
@@ -34,6 +41,14 @@ section::after {
 
 ![bg fit right:38%](Pictures/Read-the-Docs.webp)
 
+<!--
+
+- ICOtest: Python-Paket zum Testen mittels pytest
+- Für die auf der Folie zu sehende ICOtronic hardware
+- Dokumentation auf Read the Docs
+
+-->
+
 ---
 
 # 📋 Requirements
@@ -53,6 +68,12 @@ section::after {
 - Driver for CAN adapter
 - Python
 - ICOtest
+
+<!--
+
+Benötigte Hard- und Software
+
+-->
 
 ---
 
@@ -81,6 +102,16 @@ section::after {
 
 ![bg fit right:28% 200%](Pictures/icotest.webp)
 
+<!--
+
+# Verwendung
+
+- `icotest run` (Wrapper für pytest)
+- option `-k` um bestimmte Tests auszuwählen
+- Konfiguration mittels YAML-File
+
+-->
+
 ---
 
 # 🚧 Current State
@@ -96,3 +127,14 @@ section::after {
     - Version of ICOtest
 
 ![bg right:30% opacity:.15](Pictures/ICOtronic-System.webp)
+
+<!--
+
+# Aktueller Stand
+
+- Grundgerüst steht: Für Hardware auf meinem Tisch funktioniert es
+- Zusätzliche Tests und Parameteranpassung fehlt noch:
+  - Braucht Hardware-Experte
+- Test-Prozedur sollte noch beschrieben werden
+
+-->
