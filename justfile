@@ -12,6 +12,11 @@ build_directory := "build"
 preview:
 	marp --preview {{slides}} &
 
+# Create PDF version of slides
+[group('build')]
+pdf:
+	marp --allow-local-files {{slides}} --pdf
+
 # Copy resources to build directory
 [group('build')]
 [private]
